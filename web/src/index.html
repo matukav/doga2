@@ -12,14 +12,25 @@ Licenc: GNU GPL
 <html lang="hu">
   <head>
     <meta charset="UTF-8">
-    <title>Sinto Project</title>
+    <title>Panaszok</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">        
   </head>
   <body>
     <div class="container">
-      <h1>Sinto Project</h1>
-      <p>This is a default index.html file, which was created by the sin command.</p>
+      <h1>Panaszkönyv</h1>
+      <table class="table table-striped table-dark">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Leírás</th>
+            <th>Panaszos</th>
+            <th>Termék</th>
+            <th>Típus</th>
+          </tr>
+        </thead>
+        <tbody id="compBody"></tbody>
+      </table>
     </div>
     <script src="app.js"></script>
   </body>
