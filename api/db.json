@@ -4,21 +4,21 @@
             "id": 1,
             "description": "Hiányzik a bal fülhallgató",
             "complainant": "Válent Ottó",
-            "products": "AirPods",
+            "product": "AirPods",
             "type": "Vizsgálat Alatt"
         },
         {
             "id": 2,
             "description": "A kábel meg van szakadva",
             "complainant": "Repka Dániel",
-            "products": "Egér",
+            "product": "Egér",
             "type": "Lezárva"
         },
         {
             "id": 3,
             "description": "Hiányzik a DisplayPort kábel",
             "complainant": "Nádas Tamás",
-            "products": "Monitor",
+            "product": "Monitor",
             "type": "Megoldva"
         }
     ]
